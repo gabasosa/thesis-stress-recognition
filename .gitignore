@@ -1,0 +1,17 @@
+# Jupyter
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+*.log
+
+# Embedded repos kept local only
+external/stressID/
+external/stressID-fork/
+
+# Legacy notebook-local outputs
+notebooks/StressID/outputs/

@@ -1,0 +1,5 @@
+Last extraction timestamp: 2026-04-17 15:44:39
+Samples: 378
+Embedding dimension: 1024
+Positive ratio: 0.709
+Cache file: /home/gaba/Documents/Facultad/Tesis/GitHub/thesis-stress-recognition/experiments/cache/stressid_w2v_embeddings.parquet
