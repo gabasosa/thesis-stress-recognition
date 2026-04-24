@@ -1,0 +1,9 @@
+Evaluation Protocol,Result Source,Feature Type,Model,Weighted F1-score,Accuracy,Balanced Accuracy
+Stratified K-Fold,StressID paper,Handcrafted,kNN (k=5),0.6700 ± 0.0600,0.6000 ± 0.0500,—
+Stratified K-Fold,StressID paper,Handcrafted,SVM (linear),0.6100 ± 0.0600,0.5400 ± 0.0300,—
+Stratified K-Fold,StressID paper,Wav2Vec 2.0,Wav2Vec 2.0 classifier,0.7000 ± 0.0200,0.6600 ± 0.0300,—
+Stratified K-Fold,Local,Handcrafted,kNN (k=5),0.6802 ± 0.0503,0.7090 ± 0.0492,0.5831 ± 0.0531
+Stratified K-Fold,Local,Handcrafted,SVM (linear),0.6201 ± 0.0210,0.6058 ± 0.0234,0.5800 ± 0.0296
+Stratified K-Fold,Local,Handcrafted,XGBoost (Optuna-tuned),0.6788 ± 0.0382,0.6851 ± 0.0376,0.6010 ± 0.0452
+Stratified K-Fold,Local,Wav2Vec 2.0,kNN (k=5),0.7338 ± 0.0604,0.7486 ± 0.0491,0.6566 ± 0.0789
+Stratified K-Fold,Local,Wav2Vec 2.0,SVM (linear),0.6841 ± 0.0256,0.6878 ± 0.0209,0.6163 ± 0.0434

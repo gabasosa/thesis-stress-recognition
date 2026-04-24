@@ -1,0 +1,12 @@
+feature_group,importance_mean
+MFCC-delta,0.19885322
+MFCC-delta2,0.18613078
+MFCC,0.18513107
+Tempogram ratio,0.16293354
+Spectral contrast,0.11168666
+Tonnetz,0.09343974
+Spectral flatness,0.014833543
+Spectral rolloff,0.013686557
+Spectral bandwidth,0.012515295
+ZCR,0.011925733
+Spectral centroid,0.008863828

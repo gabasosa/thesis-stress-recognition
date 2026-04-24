@@ -1,0 +1,701 @@
+fold,feature_idx,feature_name,feature_group,importance
+1,0,mfcc_c0_mean,MFCC,0.010265106
+1,1,mfcc_c1_mean,MFCC,0.004644279
+1,2,mfcc_c2_mean,MFCC,0.009703155
+1,3,mfcc_c3_mean,MFCC,0.0062410925
+1,4,mfcc_c4_mean,MFCC,0.0063793436
+1,5,mfcc_c5_mean,MFCC,0.005820439
+1,6,mfcc_c6_mean,MFCC,0.010650156
+1,7,mfcc_c7_mean,MFCC,0.008968998
+1,8,mfcc_c8_mean,MFCC,0.01911885
+1,9,mfcc_c9_mean,MFCC,0.008901587
+1,10,mfcc_c10_mean,MFCC,0.0042958646
+1,11,mfcc_c11_mean,MFCC,0.0
+1,12,mfcc_c12_mean,MFCC,0.008153467
+1,13,mfcc_c0_std,MFCC,0.007918146
+1,14,mfcc_c1_std,MFCC,0.013642116
+1,15,mfcc_c2_std,MFCC,0.008048801
+1,16,mfcc_c3_std,MFCC,0.0
+1,17,mfcc_c4_std,MFCC,0.008188323
+1,18,mfcc_c5_std,MFCC,0.0
+1,19,mfcc_c6_std,MFCC,0.0061246213
+1,20,mfcc_c7_std,MFCC,0.0068665324
+1,21,mfcc_c8_std,MFCC,0.009259615
+1,22,mfcc_c9_std,MFCC,0.021907471
+1,23,mfcc_c10_std,MFCC,0.006723331
+1,24,mfcc_c11_std,MFCC,0.0051763617
+1,25,mfcc_c12_std,MFCC,0.0076140296
+1,26,mfcc_delta_c0_mean,MFCC-delta,0.0074521746
+1,27,mfcc_delta_c1_mean,MFCC-delta,0.005979231
+1,28,mfcc_delta_c2_mean,MFCC-delta,0.0077129146
+1,29,mfcc_delta_c3_mean,MFCC-delta,0.0076714633
+1,30,mfcc_delta_c4_mean,MFCC-delta,0.008017944
+1,31,mfcc_delta_c5_mean,MFCC-delta,0.005558028
+1,32,mfcc_delta_c6_mean,MFCC-delta,0.008598053
+1,33,mfcc_delta_c7_mean,MFCC-delta,0.005604005
+1,34,mfcc_delta_c8_mean,MFCC-delta,0.0039125187
+1,35,mfcc_delta_c9_mean,MFCC-delta,0.010445447
+1,36,mfcc_delta_c10_mean,MFCC-delta,0.0067545045
+1,37,mfcc_delta_c11_mean,MFCC-delta,0.0073236176
+1,38,mfcc_delta_c12_mean,MFCC-delta,0.0050074793
+1,39,mfcc_delta_c0_std,MFCC-delta,0.013117468
+1,40,mfcc_delta_c1_std,MFCC-delta,0.010072507
+1,41,mfcc_delta_c2_std,MFCC-delta,0.0125338305
+1,42,mfcc_delta_c3_std,MFCC-delta,0.011086796
+1,43,mfcc_delta_c4_std,MFCC-delta,0.00955871
+1,44,mfcc_delta_c5_std,MFCC-delta,0.0034498964
+1,45,mfcc_delta_c6_std,MFCC-delta,0.005238079
+1,46,mfcc_delta_c7_std,MFCC-delta,0.0
+1,47,mfcc_delta_c8_std,MFCC-delta,0.008985743
+1,48,mfcc_delta_c9_std,MFCC-delta,0.0
+1,49,mfcc_delta_c10_std,MFCC-delta,0.014932357
+1,50,mfcc_delta_c11_std,MFCC-delta,0.004448683
+1,51,mfcc_delta_c12_std,MFCC-delta,0.007742728
+1,52,mfcc_delta2_c0_mean,MFCC-delta2,0.0095307175
+1,53,mfcc_delta2_c1_mean,MFCC-delta2,0.0039525544
+1,54,mfcc_delta2_c2_mean,MFCC-delta2,0.008416484
+1,55,mfcc_delta2_c3_mean,MFCC-delta2,0.0070932177
+1,56,mfcc_delta2_c4_mean,MFCC-delta2,0.009269293
+1,57,mfcc_delta2_c5_mean,MFCC-delta2,0.009817958
+1,58,mfcc_delta2_c6_mean,MFCC-delta2,0.009694013
+1,59,mfcc_delta2_c7_mean,MFCC-delta2,0.0
+1,60,mfcc_delta2_c8_mean,MFCC-delta2,0.005728971
+1,61,mfcc_delta2_c9_mean,MFCC-delta2,0.005475388
+1,62,mfcc_delta2_c10_mean,MFCC-delta2,0.0067338054
+1,63,mfcc_delta2_c11_mean,MFCC-delta2,0.007278513
+1,64,mfcc_delta2_c12_mean,MFCC-delta2,0.0060584745
+1,65,mfcc_delta2_c0_std,MFCC-delta2,0.025136571
+1,66,mfcc_delta2_c1_std,MFCC-delta2,0.013273851
+1,67,mfcc_delta2_c2_std,MFCC-delta2,0.012618074
+1,68,mfcc_delta2_c3_std,MFCC-delta2,0.006687729
+1,69,mfcc_delta2_c4_std,MFCC-delta2,0.009394525
+1,70,mfcc_delta2_c5_std,MFCC-delta2,0.011531111
+1,71,mfcc_delta2_c6_std,MFCC-delta2,0.011344939
+1,72,mfcc_delta2_c7_std,MFCC-delta2,0.0036384102
+1,73,mfcc_delta2_c8_std,MFCC-delta2,0.0041177133
+1,74,mfcc_delta2_c9_std,MFCC-delta2,0.0050444813
+1,75,mfcc_delta2_c10_std,MFCC-delta2,0.0
+1,76,mfcc_delta2_c11_std,MFCC-delta2,0.0060283337
+1,77,mfcc_delta2_c12_std,MFCC-delta2,0.004582841
+1,78,spectral_centroid_mean,Spectral centroid,0.0048088995
+1,79,spectral_centroid_std,Spectral centroid,0.004730086
+1,80,spectral_bandwidth_mean,Spectral bandwidth,0.009906326
+1,81,spectral_bandwidth_std,Spectral bandwidth,0.0069134627
+1,82,spectral_flatness_mean,Spectral flatness,0.0071601155
+1,83,spectral_flatness_std,Spectral flatness,0.009586896
+1,84,spectral_contrast_band0_mean,Spectral contrast,0.007523905
+1,85,spectral_contrast_band1_mean,Spectral contrast,0.011578596
+1,86,spectral_contrast_band2_mean,Spectral contrast,0.0053962534
+1,87,spectral_contrast_band3_mean,Spectral contrast,0.0074940054
+1,88,spectral_contrast_band4_mean,Spectral contrast,0.0048935506
+1,89,spectral_contrast_band5_mean,Spectral contrast,0.004774869
+1,90,spectral_contrast_band6_mean,Spectral contrast,0.007921523
+1,91,spectral_contrast_band0_std,Spectral contrast,0.005925976
+1,92,spectral_contrast_band1_std,Spectral contrast,0.009396795
+1,93,spectral_contrast_band2_std,Spectral contrast,0.008500177
+1,94,spectral_contrast_band3_std,Spectral contrast,0.0035596723
+1,95,spectral_contrast_band4_std,Spectral contrast,0.0
+1,96,spectral_contrast_band5_std,Spectral contrast,0.0107979
+1,97,spectral_contrast_band6_std,Spectral contrast,0.0079710465
+1,98,spectral_rolloff_mean,Spectral rolloff,0.01051502
+1,99,spectral_rolloff_std,Spectral rolloff,0.0073934863
+1,100,tonnetz_dim0_mean,Tonnetz,0.0056484705
+1,101,tonnetz_dim1_mean,Tonnetz,0.006723189
+1,102,tonnetz_dim2_mean,Tonnetz,0.006232907
+1,103,tonnetz_dim3_mean,Tonnetz,0.0063593825
+1,104,tonnetz_dim4_mean,Tonnetz,0.0063976464
+1,105,tonnetz_dim5_mean,Tonnetz,0.006896
+1,106,tonnetz_dim0_std,Tonnetz,0.004154626
+1,107,tonnetz_dim1_std,Tonnetz,0.0061554164
+1,108,tonnetz_dim2_std,Tonnetz,0.006081844
+1,109,tonnetz_dim3_std,Tonnetz,0.01044119
+1,110,tonnetz_dim4_std,Tonnetz,0.010612767
+1,111,tonnetz_dim5_std,Tonnetz,0.006594703
+1,112,zcr_mean,ZCR,0.005786334
+1,113,zcr_std,ZCR,0.0
+1,114,tempogram_ratio_bin0_mean,Tempogram ratio,0.023167433
+1,115,tempogram_ratio_bin1_mean,Tempogram ratio,0.006740529
+1,116,tempogram_ratio_bin2_mean,Tempogram ratio,0.0042276634
+1,117,tempogram_ratio_bin3_mean,Tempogram ratio,0.008251816
+1,118,tempogram_ratio_bin4_mean,Tempogram ratio,0.0
+1,119,tempogram_ratio_bin5_mean,Tempogram ratio,0.014285563
+1,120,tempogram_ratio_bin6_mean,Tempogram ratio,0.0053142332
+1,121,tempogram_ratio_bin7_mean,Tempogram ratio,0.0
+1,122,tempogram_ratio_bin8_mean,Tempogram ratio,0.0
+1,123,tempogram_ratio_bin9_mean,Tempogram ratio,0.0063859527
+1,124,tempogram_ratio_bin10_mean,Tempogram ratio,0.0062919217
+1,125,tempogram_ratio_bin11_mean,Tempogram ratio,0.008834241
+1,126,tempogram_ratio_bin12_mean,Tempogram ratio,0.0035830564
+1,127,tempogram_ratio_bin0_std,Tempogram ratio,0.009001461
+1,128,tempogram_ratio_bin1_std,Tempogram ratio,0.0
+1,129,tempogram_ratio_bin2_std,Tempogram ratio,0.0063155955
+1,130,tempogram_ratio_bin3_std,Tempogram ratio,0.004944845
+1,131,tempogram_ratio_bin4_std,Tempogram ratio,0.011186018
+1,132,tempogram_ratio_bin5_std,Tempogram ratio,0.0074602086
+1,133,tempogram_ratio_bin6_std,Tempogram ratio,0.005300972
+1,134,tempogram_ratio_bin7_std,Tempogram ratio,0.006122411
+1,135,tempogram_ratio_bin8_std,Tempogram ratio,0.0048604812
+1,136,tempogram_ratio_bin9_std,Tempogram ratio,0.0
+1,137,tempogram_ratio_bin10_std,Tempogram ratio,0.004487253
+1,138,tempogram_ratio_bin11_std,Tempogram ratio,0.004924494
+1,139,tempogram_ratio_bin12_std,Tempogram ratio,0.0052169207
+2,0,mfcc_c0_mean,MFCC,0.0062005124
+2,1,mfcc_c1_mean,MFCC,0.0
+2,2,mfcc_c2_mean,MFCC,0.014016531
+2,3,mfcc_c3_mean,MFCC,0.006354906
+2,4,mfcc_c4_mean,MFCC,0.0060138623
+2,5,mfcc_c5_mean,MFCC,0.005522482
+2,6,mfcc_c6_mean,MFCC,0.005547191
+2,7,mfcc_c7_mean,MFCC,0.00983118
+2,8,mfcc_c8_mean,MFCC,0.0099377725
+2,9,mfcc_c9_mean,MFCC,0.00977621
+2,10,mfcc_c10_mean,MFCC,0.0
+2,11,mfcc_c11_mean,MFCC,0.008422413
+2,12,mfcc_c12_mean,MFCC,0.007798322
+2,13,mfcc_c0_std,MFCC,0.012346898
+2,14,mfcc_c1_std,MFCC,0.0068073734
+2,15,mfcc_c2_std,MFCC,0.006532422
+2,16,mfcc_c3_std,MFCC,0.008357871
+2,17,mfcc_c4_std,MFCC,0.011377962
+2,18,mfcc_c5_std,MFCC,0.00664002
+2,19,mfcc_c6_std,MFCC,0.011067413
+2,20,mfcc_c7_std,MFCC,0.0042714477
+2,21,mfcc_c8_std,MFCC,0.00949425
+2,22,mfcc_c9_std,MFCC,0.008775166
+2,23,mfcc_c10_std,MFCC,0.0
+2,24,mfcc_c11_std,MFCC,0.0
+2,25,mfcc_c12_std,MFCC,0.0
+2,26,mfcc_delta_c0_mean,MFCC-delta,0.0053799823
+2,27,mfcc_delta_c1_mean,MFCC-delta,0.006495899
+2,28,mfcc_delta_c2_mean,MFCC-delta,0.0074217855
+2,29,mfcc_delta_c3_mean,MFCC-delta,0.0041630166
+2,30,mfcc_delta_c4_mean,MFCC-delta,0.010290324
+2,31,mfcc_delta_c5_mean,MFCC-delta,0.00789864
+2,32,mfcc_delta_c6_mean,MFCC-delta,0.008868991
+2,33,mfcc_delta_c7_mean,MFCC-delta,0.0066126403
+2,34,mfcc_delta_c8_mean,MFCC-delta,0.0077122557
+2,35,mfcc_delta_c9_mean,MFCC-delta,0.01218414
+2,36,mfcc_delta_c10_mean,MFCC-delta,0.0061378838
+2,37,mfcc_delta_c11_mean,MFCC-delta,0.007502479
+2,38,mfcc_delta_c12_mean,MFCC-delta,0.0040072673
+2,39,mfcc_delta_c0_std,MFCC-delta,0.0048619253
+2,40,mfcc_delta_c1_std,MFCC-delta,0.0126713
+2,41,mfcc_delta_c2_std,MFCC-delta,0.009591614
+2,42,mfcc_delta_c3_std,MFCC-delta,0.004110798
+2,43,mfcc_delta_c4_std,MFCC-delta,0.0
+2,44,mfcc_delta_c5_std,MFCC-delta,0.008184796
+2,45,mfcc_delta_c6_std,MFCC-delta,0.0044723786
+2,46,mfcc_delta_c7_std,MFCC-delta,0.009881132
+2,47,mfcc_delta_c8_std,MFCC-delta,0.008703089
+2,48,mfcc_delta_c9_std,MFCC-delta,0.0037806379
+2,49,mfcc_delta_c10_std,MFCC-delta,0.01706202
+2,50,mfcc_delta_c11_std,MFCC-delta,0.004154745
+2,51,mfcc_delta_c12_std,MFCC-delta,0.009458083
+2,52,mfcc_delta2_c0_mean,MFCC-delta2,0.012331143
+2,53,mfcc_delta2_c1_mean,MFCC-delta2,0.007913617
+2,54,mfcc_delta2_c2_mean,MFCC-delta2,0.010133959
+2,55,mfcc_delta2_c3_mean,MFCC-delta2,0.0038589064
+2,56,mfcc_delta2_c4_mean,MFCC-delta2,0.007971716
+2,57,mfcc_delta2_c5_mean,MFCC-delta2,0.007527786
+2,58,mfcc_delta2_c6_mean,MFCC-delta2,0.00382519
+2,59,mfcc_delta2_c7_mean,MFCC-delta2,0.005936951
+2,60,mfcc_delta2_c8_mean,MFCC-delta2,0.008015582
+2,61,mfcc_delta2_c9_mean,MFCC-delta2,0.0071095396
+2,62,mfcc_delta2_c10_mean,MFCC-delta2,0.006422368
+2,63,mfcc_delta2_c11_mean,MFCC-delta2,0.006612234
+2,64,mfcc_delta2_c12_mean,MFCC-delta2,0.0058004144
+2,65,mfcc_delta2_c0_std,MFCC-delta2,0.004717494
+2,66,mfcc_delta2_c1_std,MFCC-delta2,0.021651356
+2,67,mfcc_delta2_c2_std,MFCC-delta2,0.0
+2,68,mfcc_delta2_c3_std,MFCC-delta2,0.0058635753
+2,69,mfcc_delta2_c4_std,MFCC-delta2,0.006765706
+2,70,mfcc_delta2_c5_std,MFCC-delta2,0.0072007678
+2,71,mfcc_delta2_c6_std,MFCC-delta2,0.0
+2,72,mfcc_delta2_c7_std,MFCC-delta2,0.0
+2,73,mfcc_delta2_c8_std,MFCC-delta2,0.0040715598
+2,74,mfcc_delta2_c9_std,MFCC-delta2,0.0
+2,75,mfcc_delta2_c10_std,MFCC-delta2,0.009543312
+2,76,mfcc_delta2_c11_std,MFCC-delta2,0.005266004
+2,77,mfcc_delta2_c12_std,MFCC-delta2,0.00412116
+2,78,spectral_centroid_mean,Spectral centroid,0.0
+2,79,spectral_centroid_std,Spectral centroid,0.009151414
+2,80,spectral_bandwidth_mean,Spectral bandwidth,0.006023671
+2,81,spectral_bandwidth_std,Spectral bandwidth,0.0063328347
+2,82,spectral_flatness_mean,Spectral flatness,0.0
+2,83,spectral_flatness_std,Spectral flatness,0.013498257
+2,84,spectral_contrast_band0_mean,Spectral contrast,0.0056427107
+2,85,spectral_contrast_band1_mean,Spectral contrast,0.009264192
+2,86,spectral_contrast_band2_mean,Spectral contrast,0.004255842
+2,87,spectral_contrast_band3_mean,Spectral contrast,0.005826214
+2,88,spectral_contrast_band4_mean,Spectral contrast,0.010115709
+2,89,spectral_contrast_band5_mean,Spectral contrast,0.013898671
+2,90,spectral_contrast_band6_mean,Spectral contrast,0.008676503
+2,91,spectral_contrast_band0_std,Spectral contrast,0.007891032
+2,92,spectral_contrast_band1_std,Spectral contrast,0.0126711745
+2,93,spectral_contrast_band2_std,Spectral contrast,0.0074408287
+2,94,spectral_contrast_band3_std,Spectral contrast,0.008609543
+2,95,spectral_contrast_band4_std,Spectral contrast,0.011388499
+2,96,spectral_contrast_band5_std,Spectral contrast,0.014553231
+2,97,spectral_contrast_band6_std,Spectral contrast,0.009981026
+2,98,spectral_rolloff_mean,Spectral rolloff,0.003909985
+2,99,spectral_rolloff_std,Spectral rolloff,0.0071915193
+2,100,tonnetz_dim0_mean,Tonnetz,0.0070177233
+2,101,tonnetz_dim1_mean,Tonnetz,0.008406059
+2,102,tonnetz_dim2_mean,Tonnetz,0.005788576
+2,103,tonnetz_dim3_mean,Tonnetz,0.007855245
+2,104,tonnetz_dim4_mean,Tonnetz,0.007262015
+2,105,tonnetz_dim5_mean,Tonnetz,0.011061667
+2,106,tonnetz_dim0_std,Tonnetz,0.008192612
+2,107,tonnetz_dim1_std,Tonnetz,0.010200333
+2,108,tonnetz_dim2_std,Tonnetz,0.012445372
+2,109,tonnetz_dim3_std,Tonnetz,0.011868359
+2,110,tonnetz_dim4_std,Tonnetz,0.009541212
+2,111,tonnetz_dim5_std,Tonnetz,0.0076677483
+2,112,zcr_mean,ZCR,0.009612668
+2,113,zcr_std,ZCR,0.011976133
+2,114,tempogram_ratio_bin0_mean,Tempogram ratio,0.0058738473
+2,115,tempogram_ratio_bin1_mean,Tempogram ratio,0.0
+2,116,tempogram_ratio_bin2_mean,Tempogram ratio,0.017448097
+2,117,tempogram_ratio_bin3_mean,Tempogram ratio,0.0
+2,118,tempogram_ratio_bin4_mean,Tempogram ratio,0.0047758585
+2,119,tempogram_ratio_bin5_mean,Tempogram ratio,0.0037656024
+2,120,tempogram_ratio_bin6_mean,Tempogram ratio,0.0066236174
+2,121,tempogram_ratio_bin7_mean,Tempogram ratio,0.009697789
+2,122,tempogram_ratio_bin8_mean,Tempogram ratio,0.0
+2,123,tempogram_ratio_bin9_mean,Tempogram ratio,0.0
+2,124,tempogram_ratio_bin10_mean,Tempogram ratio,0.01024782
+2,125,tempogram_ratio_bin11_mean,Tempogram ratio,0.0141405035
+2,126,tempogram_ratio_bin12_mean,Tempogram ratio,0.0057129893
+2,127,tempogram_ratio_bin0_std,Tempogram ratio,0.004966285
+2,128,tempogram_ratio_bin1_std,Tempogram ratio,0.014503341
+2,129,tempogram_ratio_bin2_std,Tempogram ratio,0.005157195
+2,130,tempogram_ratio_bin3_std,Tempogram ratio,0.008316723
+2,131,tempogram_ratio_bin4_std,Tempogram ratio,0.0
+2,132,tempogram_ratio_bin5_std,Tempogram ratio,0.004359976
+2,133,tempogram_ratio_bin6_std,Tempogram ratio,0.006350308
+2,134,tempogram_ratio_bin7_std,Tempogram ratio,0.003984869
+2,135,tempogram_ratio_bin8_std,Tempogram ratio,0.0063671474
+2,136,tempogram_ratio_bin9_std,Tempogram ratio,0.012116702
+2,137,tempogram_ratio_bin10_std,Tempogram ratio,0.0042909305
+2,138,tempogram_ratio_bin11_std,Tempogram ratio,0.0068962616
+2,139,tempogram_ratio_bin12_std,Tempogram ratio,0.009825122
+3,0,mfcc_c0_mean,MFCC,0.0
+3,1,mfcc_c1_mean,MFCC,0.006248351
+3,2,mfcc_c2_mean,MFCC,0.012347172
+3,3,mfcc_c3_mean,MFCC,0.008982288
+3,4,mfcc_c4_mean,MFCC,0.0076371594
+3,5,mfcc_c5_mean,MFCC,0.0060844673
+3,6,mfcc_c6_mean,MFCC,0.0053009302
+3,7,mfcc_c7_mean,MFCC,0.007131767
+3,8,mfcc_c8_mean,MFCC,0.008339866
+3,9,mfcc_c9_mean,MFCC,0.010989071
+3,10,mfcc_c10_mean,MFCC,0.006435818
+3,11,mfcc_c11_mean,MFCC,0.009864348
+3,12,mfcc_c12_mean,MFCC,0.0072115
+3,13,mfcc_c0_std,MFCC,0.007136628
+3,14,mfcc_c1_std,MFCC,0.0060937665
+3,15,mfcc_c2_std,MFCC,0.004890295
+3,16,mfcc_c3_std,MFCC,0.0073748627
+3,17,mfcc_c4_std,MFCC,0.0
+3,18,mfcc_c5_std,MFCC,0.0
+3,19,mfcc_c6_std,MFCC,0.008516671
+3,20,mfcc_c7_std,MFCC,0.008104385
+3,21,mfcc_c8_std,MFCC,0.006473732
+3,22,mfcc_c9_std,MFCC,0.004289003
+3,23,mfcc_c10_std,MFCC,0.0093387775
+3,24,mfcc_c11_std,MFCC,0.00623965
+3,25,mfcc_c12_std,MFCC,0.013094915
+3,26,mfcc_delta_c0_mean,MFCC-delta,0.00569201
+3,27,mfcc_delta_c1_mean,MFCC-delta,0.0049652257
+3,28,mfcc_delta_c2_mean,MFCC-delta,0.0065280767
+3,29,mfcc_delta_c3_mean,MFCC-delta,0.0069322223
+3,30,mfcc_delta_c4_mean,MFCC-delta,0.005276353
+3,31,mfcc_delta_c5_mean,MFCC-delta,0.0
+3,32,mfcc_delta_c6_mean,MFCC-delta,0.0075737108
+3,33,mfcc_delta_c7_mean,MFCC-delta,0.0062214606
+3,34,mfcc_delta_c8_mean,MFCC-delta,0.005779145
+3,35,mfcc_delta_c9_mean,MFCC-delta,0.011154772
+3,36,mfcc_delta_c10_mean,MFCC-delta,0.008105964
+3,37,mfcc_delta_c11_mean,MFCC-delta,0.0063181603
+3,38,mfcc_delta_c12_mean,MFCC-delta,0.0043992475
+3,39,mfcc_delta_c0_std,MFCC-delta,0.011163128
+3,40,mfcc_delta_c1_std,MFCC-delta,0.0
+3,41,mfcc_delta_c2_std,MFCC-delta,0.007854352
+3,42,mfcc_delta_c3_std,MFCC-delta,0.003779545
+3,43,mfcc_delta_c4_std,MFCC-delta,0.0077702357
+3,44,mfcc_delta_c5_std,MFCC-delta,0.0054751798
+3,45,mfcc_delta_c6_std,MFCC-delta,0.007305486
+3,46,mfcc_delta_c7_std,MFCC-delta,0.0054231496
+3,47,mfcc_delta_c8_std,MFCC-delta,0.0076075234
+3,48,mfcc_delta_c9_std,MFCC-delta,0.0
+3,49,mfcc_delta_c10_std,MFCC-delta,0.006299594
+3,50,mfcc_delta_c11_std,MFCC-delta,0.030786483
+3,51,mfcc_delta_c12_std,MFCC-delta,0.0092822015
+3,52,mfcc_delta2_c0_mean,MFCC-delta2,0.007171043
+3,53,mfcc_delta2_c1_mean,MFCC-delta2,0.0061202776
+3,54,mfcc_delta2_c2_mean,MFCC-delta2,0.009503884
+3,55,mfcc_delta2_c3_mean,MFCC-delta2,0.0
+3,56,mfcc_delta2_c4_mean,MFCC-delta2,0.0054965266
+3,57,mfcc_delta2_c5_mean,MFCC-delta2,0.007877346
+3,58,mfcc_delta2_c6_mean,MFCC-delta2,0.004639933
+3,59,mfcc_delta2_c7_mean,MFCC-delta2,0.005216885
+3,60,mfcc_delta2_c8_mean,MFCC-delta2,0.0056833704
+3,61,mfcc_delta2_c9_mean,MFCC-delta2,0.007108172
+3,62,mfcc_delta2_c10_mean,MFCC-delta2,0.0070479694
+3,63,mfcc_delta2_c11_mean,MFCC-delta2,0.0062550167
+3,64,mfcc_delta2_c12_mean,MFCC-delta2,0.0036101774
+3,65,mfcc_delta2_c0_std,MFCC-delta2,0.010650868
+3,66,mfcc_delta2_c1_std,MFCC-delta2,0.0051651997
+3,67,mfcc_delta2_c2_std,MFCC-delta2,0.0060699624
+3,68,mfcc_delta2_c3_std,MFCC-delta2,0.0
+3,69,mfcc_delta2_c4_std,MFCC-delta2,0.0050747287
+3,70,mfcc_delta2_c5_std,MFCC-delta2,0.010717397
+3,71,mfcc_delta2_c6_std,MFCC-delta2,0.014194497
+3,72,mfcc_delta2_c7_std,MFCC-delta2,0.0051389863
+3,73,mfcc_delta2_c8_std,MFCC-delta2,0.006333277
+3,74,mfcc_delta2_c9_std,MFCC-delta2,0.007671484
+3,75,mfcc_delta2_c10_std,MFCC-delta2,0.0076802983
+3,76,mfcc_delta2_c11_std,MFCC-delta2,0.008744575
+3,77,mfcc_delta2_c12_std,MFCC-delta2,0.010011904
+3,78,spectral_centroid_mean,Spectral centroid,0.0
+3,79,spectral_centroid_std,Spectral centroid,0.004373502
+3,80,spectral_bandwidth_mean,Spectral bandwidth,0.009015668
+3,81,spectral_bandwidth_std,Spectral bandwidth,0.0047858083
+3,82,spectral_flatness_mean,Spectral flatness,0.007891929
+3,83,spectral_flatness_std,Spectral flatness,0.010986369
+3,84,spectral_contrast_band0_mean,Spectral contrast,0.011589399
+3,85,spectral_contrast_band1_mean,Spectral contrast,0.011195258
+3,86,spectral_contrast_band2_mean,Spectral contrast,0.0070335264
+3,87,spectral_contrast_band3_mean,Spectral contrast,0.013047581
+3,88,spectral_contrast_band4_mean,Spectral contrast,0.0051401155
+3,89,spectral_contrast_band5_mean,Spectral contrast,0.0063721924
+3,90,spectral_contrast_band6_mean,Spectral contrast,0.0049654217
+3,91,spectral_contrast_band0_std,Spectral contrast,0.011388619
+3,92,spectral_contrast_band1_std,Spectral contrast,0.012414912
+3,93,spectral_contrast_band2_std,Spectral contrast,0.0105511015
+3,94,spectral_contrast_band3_std,Spectral contrast,0.009763733
+3,95,spectral_contrast_band4_std,Spectral contrast,0.0065962705
+3,96,spectral_contrast_band5_std,Spectral contrast,0.010169831
+3,97,spectral_contrast_band6_std,Spectral contrast,0.007289304
+3,98,spectral_rolloff_mean,Spectral rolloff,0.0069799665
+3,99,spectral_rolloff_std,Spectral rolloff,0.0077597625
+3,100,tonnetz_dim0_mean,Tonnetz,0.0077358037
+3,101,tonnetz_dim1_mean,Tonnetz,0.0064151846
+3,102,tonnetz_dim2_mean,Tonnetz,0.0069911
+3,103,tonnetz_dim3_mean,Tonnetz,0.0059777144
+3,104,tonnetz_dim4_mean,Tonnetz,0.006745132
+3,105,tonnetz_dim5_mean,Tonnetz,0.0055852677
+3,106,tonnetz_dim0_std,Tonnetz,0.012188912
+3,107,tonnetz_dim1_std,Tonnetz,0.01100271
+3,108,tonnetz_dim2_std,Tonnetz,0.015230612
+3,109,tonnetz_dim3_std,Tonnetz,0.007787091
+3,110,tonnetz_dim4_std,Tonnetz,0.008985636
+3,111,tonnetz_dim5_std,Tonnetz,0.007360594
+3,112,zcr_mean,ZCR,0.0076831155
+3,113,zcr_std,ZCR,0.004489983
+3,114,tempogram_ratio_bin0_mean,Tempogram ratio,0.006307038
+3,115,tempogram_ratio_bin1_mean,Tempogram ratio,0.008879027
+3,116,tempogram_ratio_bin2_mean,Tempogram ratio,0.005172671
+3,117,tempogram_ratio_bin3_mean,Tempogram ratio,0.005353878
+3,118,tempogram_ratio_bin4_mean,Tempogram ratio,0.0069933143
+3,119,tempogram_ratio_bin5_mean,Tempogram ratio,0.0
+3,120,tempogram_ratio_bin6_mean,Tempogram ratio,0.006635828
+3,121,tempogram_ratio_bin7_mean,Tempogram ratio,0.006209331
+3,122,tempogram_ratio_bin8_mean,Tempogram ratio,0.015087717
+3,123,tempogram_ratio_bin9_mean,Tempogram ratio,0.0
+3,124,tempogram_ratio_bin10_mean,Tempogram ratio,0.0075277495
+3,125,tempogram_ratio_bin11_mean,Tempogram ratio,0.008828335
+3,126,tempogram_ratio_bin12_mean,Tempogram ratio,0.0
+3,127,tempogram_ratio_bin0_std,Tempogram ratio,0.007362556
+3,128,tempogram_ratio_bin1_std,Tempogram ratio,0.004403615
+3,129,tempogram_ratio_bin2_std,Tempogram ratio,0.005690247
+3,130,tempogram_ratio_bin3_std,Tempogram ratio,0.0060027214
+3,131,tempogram_ratio_bin4_std,Tempogram ratio,0.008267146
+3,132,tempogram_ratio_bin5_std,Tempogram ratio,0.00871668
+3,133,tempogram_ratio_bin6_std,Tempogram ratio,0.0080941785
+3,134,tempogram_ratio_bin7_std,Tempogram ratio,0.00467899
+3,135,tempogram_ratio_bin8_std,Tempogram ratio,0.006674163
+3,136,tempogram_ratio_bin9_std,Tempogram ratio,0.008422094
+3,137,tempogram_ratio_bin10_std,Tempogram ratio,0.00876095
+3,138,tempogram_ratio_bin11_std,Tempogram ratio,0.0076082028
+3,139,tempogram_ratio_bin12_std,Tempogram ratio,0.011832016
+4,0,mfcc_c0_mean,MFCC,0.0
+4,1,mfcc_c1_mean,MFCC,0.00804798
+4,2,mfcc_c2_mean,MFCC,0.01266314
+4,3,mfcc_c3_mean,MFCC,0.006645069
+4,4,mfcc_c4_mean,MFCC,0.0057176603
+4,5,mfcc_c5_mean,MFCC,0.0061799665
+4,6,mfcc_c6_mean,MFCC,0.0070944326
+4,7,mfcc_c7_mean,MFCC,0.0
+4,8,mfcc_c8_mean,MFCC,0.0047817673
+4,9,mfcc_c9_mean,MFCC,0.00677264
+4,10,mfcc_c10_mean,MFCC,0.00490196
+4,11,mfcc_c11_mean,MFCC,0.004250087
+4,12,mfcc_c12_mean,MFCC,0.0058201146
+4,13,mfcc_c0_std,MFCC,0.0061381636
+4,14,mfcc_c1_std,MFCC,0.0059359823
+4,15,mfcc_c2_std,MFCC,0.014372445
+4,16,mfcc_c3_std,MFCC,0.004464661
+4,17,mfcc_c4_std,MFCC,0.015472425
+4,18,mfcc_c5_std,MFCC,0.004595957
+4,19,mfcc_c6_std,MFCC,0.0
+4,20,mfcc_c7_std,MFCC,0.0066991346
+4,21,mfcc_c8_std,MFCC,0.0066217994
+4,22,mfcc_c9_std,MFCC,0.006732817
+4,23,mfcc_c10_std,MFCC,0.006085894
+4,24,mfcc_c11_std,MFCC,0.012127495
+4,25,mfcc_c12_std,MFCC,0.00961862
+4,26,mfcc_delta_c0_mean,MFCC-delta,0.0070001995
+4,27,mfcc_delta_c1_mean,MFCC-delta,0.00801842
+4,28,mfcc_delta_c2_mean,MFCC-delta,0.0072275233
+4,29,mfcc_delta_c3_mean,MFCC-delta,0.006367212
+4,30,mfcc_delta_c4_mean,MFCC-delta,0.0065020784
+4,31,mfcc_delta_c5_mean,MFCC-delta,0.007324158
+4,32,mfcc_delta_c6_mean,MFCC-delta,0.0077788704
+4,33,mfcc_delta_c7_mean,MFCC-delta,0.0046437955
+4,34,mfcc_delta_c8_mean,MFCC-delta,0.008974807
+4,35,mfcc_delta_c9_mean,MFCC-delta,0.0106703285
+4,36,mfcc_delta_c10_mean,MFCC-delta,0.009965777
+4,37,mfcc_delta_c11_mean,MFCC-delta,0.006794516
+4,38,mfcc_delta_c12_mean,MFCC-delta,0.007631697
+4,39,mfcc_delta_c0_std,MFCC-delta,0.009086837
+4,40,mfcc_delta_c1_std,MFCC-delta,0.011068891
+4,41,mfcc_delta_c2_std,MFCC-delta,0.007661888
+4,42,mfcc_delta_c3_std,MFCC-delta,0.021985903
+4,43,mfcc_delta_c4_std,MFCC-delta,0.005703978
+4,44,mfcc_delta_c5_std,MFCC-delta,0.0056027016
+4,45,mfcc_delta_c6_std,MFCC-delta,0.0055907746
+4,46,mfcc_delta_c7_std,MFCC-delta,0.010590429
+4,47,mfcc_delta_c8_std,MFCC-delta,0.010217536
+4,48,mfcc_delta_c9_std,MFCC-delta,0.009245131
+4,49,mfcc_delta_c10_std,MFCC-delta,0.010710199
+4,50,mfcc_delta_c11_std,MFCC-delta,0.0
+4,51,mfcc_delta_c12_std,MFCC-delta,0.011042128
+4,52,mfcc_delta2_c0_mean,MFCC-delta2,0.008473514
+4,53,mfcc_delta2_c1_mean,MFCC-delta2,0.0069474303
+4,54,mfcc_delta2_c2_mean,MFCC-delta2,0.010075594
+4,55,mfcc_delta2_c3_mean,MFCC-delta2,0.0055274083
+4,56,mfcc_delta2_c4_mean,MFCC-delta2,0.0052724374
+4,57,mfcc_delta2_c5_mean,MFCC-delta2,0.008328237
+4,58,mfcc_delta2_c6_mean,MFCC-delta2,0.0069076275
+4,59,mfcc_delta2_c7_mean,MFCC-delta2,0.007480535
+4,60,mfcc_delta2_c8_mean,MFCC-delta2,0.006233521
+4,61,mfcc_delta2_c9_mean,MFCC-delta2,0.0056680944
+4,62,mfcc_delta2_c10_mean,MFCC-delta2,0.007411604
+4,63,mfcc_delta2_c11_mean,MFCC-delta2,0.0072059836
+4,64,mfcc_delta2_c12_mean,MFCC-delta2,0.0041013206
+4,65,mfcc_delta2_c0_std,MFCC-delta2,0.008111811
+4,66,mfcc_delta2_c1_std,MFCC-delta2,0.015965858
+4,67,mfcc_delta2_c2_std,MFCC-delta2,0.009923231
+4,68,mfcc_delta2_c3_std,MFCC-delta2,0.005266007
+4,69,mfcc_delta2_c4_std,MFCC-delta2,0.0
+4,70,mfcc_delta2_c5_std,MFCC-delta2,0.021931043
+4,71,mfcc_delta2_c6_std,MFCC-delta2,0.0063897665
+4,72,mfcc_delta2_c7_std,MFCC-delta2,0.005338776
+4,73,mfcc_delta2_c8_std,MFCC-delta2,0.004060068
+4,74,mfcc_delta2_c9_std,MFCC-delta2,0.0065567372
+4,75,mfcc_delta2_c10_std,MFCC-delta2,0.015512724
+4,76,mfcc_delta2_c11_std,MFCC-delta2,0.003600661
+4,77,mfcc_delta2_c12_std,MFCC-delta2,0.0076179053
+4,78,spectral_centroid_mean,Spectral centroid,0.0045829257
+4,79,spectral_centroid_std,Spectral centroid,0.0062848516
+4,80,spectral_bandwidth_mean,Spectral bandwidth,0.0
+4,81,spectral_bandwidth_std,Spectral bandwidth,0.008960508
+4,82,spectral_flatness_mean,Spectral flatness,0.009360564
+4,83,spectral_flatness_std,Spectral flatness,0.008346951
+4,84,spectral_contrast_band0_mean,Spectral contrast,0.008548246
+4,85,spectral_contrast_band1_mean,Spectral contrast,0.008509798
+4,86,spectral_contrast_band2_mean,Spectral contrast,0.0038268885
+4,87,spectral_contrast_band3_mean,Spectral contrast,0.0134059135
+4,88,spectral_contrast_band4_mean,Spectral contrast,0.0
+4,89,spectral_contrast_band5_mean,Spectral contrast,0.007933687
+4,90,spectral_contrast_band6_mean,Spectral contrast,0.0
+4,91,spectral_contrast_band0_std,Spectral contrast,0.004859168
+4,92,spectral_contrast_band1_std,Spectral contrast,0.008865996
+4,93,spectral_contrast_band2_std,Spectral contrast,0.005010799
+4,94,spectral_contrast_band3_std,Spectral contrast,0.0045762914
+4,95,spectral_contrast_band4_std,Spectral contrast,0.0
+4,96,spectral_contrast_band5_std,Spectral contrast,0.009219143
+4,97,spectral_contrast_band6_std,Spectral contrast,0.007616127
+4,98,spectral_rolloff_mean,Spectral rolloff,0.006662679
+4,99,spectral_rolloff_std,Spectral rolloff,0.008584709
+4,100,tonnetz_dim0_mean,Tonnetz,0.009060631
+4,101,tonnetz_dim1_mean,Tonnetz,0.005598772
+4,102,tonnetz_dim2_mean,Tonnetz,0.009796478
+4,103,tonnetz_dim3_mean,Tonnetz,0.0045375833
+4,104,tonnetz_dim4_mean,Tonnetz,0.007957126
+4,105,tonnetz_dim5_mean,Tonnetz,0.00994491
+4,106,tonnetz_dim0_std,Tonnetz,0.0
+4,107,tonnetz_dim1_std,Tonnetz,0.015547588
+4,108,tonnetz_dim2_std,Tonnetz,0.010972051
+4,109,tonnetz_dim3_std,Tonnetz,0.0074048154
+4,110,tonnetz_dim4_std,Tonnetz,0.007932588
+4,111,tonnetz_dim5_std,Tonnetz,0.006528695
+4,112,zcr_mean,ZCR,0.0
+4,113,zcr_std,ZCR,0.004618551
+4,114,tempogram_ratio_bin0_mean,Tempogram ratio,0.014029538
+4,115,tempogram_ratio_bin1_mean,Tempogram ratio,0.008207567
+4,116,tempogram_ratio_bin2_mean,Tempogram ratio,0.009715318
+4,117,tempogram_ratio_bin3_mean,Tempogram ratio,0.013678323
+4,118,tempogram_ratio_bin4_mean,Tempogram ratio,0.0
+4,119,tempogram_ratio_bin5_mean,Tempogram ratio,0.0040105977
+4,120,tempogram_ratio_bin6_mean,Tempogram ratio,0.006419074
+4,121,tempogram_ratio_bin7_mean,Tempogram ratio,0.0042772256
+4,122,tempogram_ratio_bin8_mean,Tempogram ratio,0.0039590835
+4,123,tempogram_ratio_bin9_mean,Tempogram ratio,0.015156698
+4,124,tempogram_ratio_bin10_mean,Tempogram ratio,0.0074626883
+4,125,tempogram_ratio_bin11_mean,Tempogram ratio,0.0037179205
+4,126,tempogram_ratio_bin12_mean,Tempogram ratio,0.0047966973
+4,127,tempogram_ratio_bin0_std,Tempogram ratio,0.0066095474
+4,128,tempogram_ratio_bin1_std,Tempogram ratio,0.0
+4,129,tempogram_ratio_bin2_std,Tempogram ratio,0.0056485785
+4,130,tempogram_ratio_bin3_std,Tempogram ratio,0.008566708
+4,131,tempogram_ratio_bin4_std,Tempogram ratio,0.0062773405
+4,132,tempogram_ratio_bin5_std,Tempogram ratio,0.005056004
+4,133,tempogram_ratio_bin6_std,Tempogram ratio,0.00602067
+4,134,tempogram_ratio_bin7_std,Tempogram ratio,0.0068768817
+4,135,tempogram_ratio_bin8_std,Tempogram ratio,0.010860548
+4,136,tempogram_ratio_bin9_std,Tempogram ratio,0.006385767
+4,137,tempogram_ratio_bin10_std,Tempogram ratio,0.004050401
+4,138,tempogram_ratio_bin11_std,Tempogram ratio,0.0066023264
+4,139,tempogram_ratio_bin12_std,Tempogram ratio,0.007505519
+5,0,mfcc_c0_mean,MFCC,0.01260454
+5,1,mfcc_c1_mean,MFCC,0.0058533615
+5,2,mfcc_c2_mean,MFCC,0.009754929
+5,3,mfcc_c3_mean,MFCC,0.008305248
+5,4,mfcc_c4_mean,MFCC,0.006526629
+5,5,mfcc_c5_mean,MFCC,0.0113302395
+5,6,mfcc_c6_mean,MFCC,0.00665795
+5,7,mfcc_c7_mean,MFCC,0.011935619
+5,8,mfcc_c8_mean,MFCC,0.0060830326
+5,9,mfcc_c9_mean,MFCC,0.0061614127
+5,10,mfcc_c10_mean,MFCC,0.0061444654
+5,11,mfcc_c11_mean,MFCC,0.009085305
+5,12,mfcc_c12_mean,MFCC,0.0064585544
+5,13,mfcc_c0_std,MFCC,0.009869341
+5,14,mfcc_c1_std,MFCC,0.0
+5,15,mfcc_c2_std,MFCC,0.005833622
+5,16,mfcc_c3_std,MFCC,0.0070403423
+5,17,mfcc_c4_std,MFCC,0.008095919
+5,18,mfcc_c5_std,MFCC,0.0
+5,19,mfcc_c6_std,MFCC,0.008311614
+5,20,mfcc_c7_std,MFCC,0.005754152
+5,21,mfcc_c8_std,MFCC,0.010396165
+5,22,mfcc_c9_std,MFCC,0.014233413
+5,23,mfcc_c10_std,MFCC,0.0
+5,24,mfcc_c11_std,MFCC,0.013933093
+5,25,mfcc_c12_std,MFCC,0.00571687
+5,26,mfcc_delta_c0_mean,MFCC-delta,0.005546821
+5,27,mfcc_delta_c1_mean,MFCC-delta,0.0049704406
+5,28,mfcc_delta_c2_mean,MFCC-delta,0.009476876
+5,29,mfcc_delta_c3_mean,MFCC-delta,0.011044802
+5,30,mfcc_delta_c4_mean,MFCC-delta,0.011413336
+5,31,mfcc_delta_c5_mean,MFCC-delta,0.009349719
+5,32,mfcc_delta_c6_mean,MFCC-delta,0.007973719
+5,33,mfcc_delta_c7_mean,MFCC-delta,0.005958864
+5,34,mfcc_delta_c8_mean,MFCC-delta,0.0047954223
+5,35,mfcc_delta_c9_mean,MFCC-delta,0.010899152
+5,36,mfcc_delta_c10_mean,MFCC-delta,0.009782005
+5,37,mfcc_delta_c11_mean,MFCC-delta,0.0071340716
+5,38,mfcc_delta_c12_mean,MFCC-delta,0.005177411
+5,39,mfcc_delta_c0_std,MFCC-delta,0.013569819
+5,40,mfcc_delta_c1_std,MFCC-delta,0.013653572
+5,41,mfcc_delta_c2_std,MFCC-delta,0.011123244
+5,42,mfcc_delta_c3_std,MFCC-delta,0.011137956
+5,43,mfcc_delta_c4_std,MFCC-delta,0.0065435846
+5,44,mfcc_delta_c5_std,MFCC-delta,0.006968682
+5,45,mfcc_delta_c6_std,MFCC-delta,0.007084165
+5,46,mfcc_delta_c7_std,MFCC-delta,0.0
+5,47,mfcc_delta_c8_std,MFCC-delta,0.01062688
+5,48,mfcc_delta_c9_std,MFCC-delta,0.004380616
+5,49,mfcc_delta_c10_std,MFCC-delta,0.0
+5,50,mfcc_delta_c11_std,MFCC-delta,0.009480277
+5,51,mfcc_delta_c12_std,MFCC-delta,0.014263678
+5,52,mfcc_delta2_c0_mean,MFCC-delta2,0.008973912
+5,53,mfcc_delta2_c1_mean,MFCC-delta2,0.009001952
+5,54,mfcc_delta2_c2_mean,MFCC-delta2,0.007543821
+5,55,mfcc_delta2_c3_mean,MFCC-delta2,0.00997895
+5,56,mfcc_delta2_c4_mean,MFCC-delta2,0.009183393
+5,57,mfcc_delta2_c5_mean,MFCC-delta2,0.0074771214
+5,58,mfcc_delta2_c6_mean,MFCC-delta2,0.006200234
+5,59,mfcc_delta2_c7_mean,MFCC-delta2,0.0058773393
+5,60,mfcc_delta2_c8_mean,MFCC-delta2,0.0061202403
+5,61,mfcc_delta2_c9_mean,MFCC-delta2,0.0066239526
+5,62,mfcc_delta2_c10_mean,MFCC-delta2,0.00968841
+5,63,mfcc_delta2_c11_mean,MFCC-delta2,0.00695943
+5,64,mfcc_delta2_c12_mean,MFCC-delta2,0.005590221
+5,65,mfcc_delta2_c0_std,MFCC-delta2,0.0
+5,66,mfcc_delta2_c1_std,MFCC-delta2,0.011068618
+5,67,mfcc_delta2_c2_std,MFCC-delta2,0.0116692595
+5,68,mfcc_delta2_c3_std,MFCC-delta2,0.012721648
+5,69,mfcc_delta2_c4_std,MFCC-delta2,0.010151842
+5,70,mfcc_delta2_c5_std,MFCC-delta2,0.005714721
+5,71,mfcc_delta2_c6_std,MFCC-delta2,0.008450476
+5,72,mfcc_delta2_c7_std,MFCC-delta2,0.0
+5,73,mfcc_delta2_c8_std,MFCC-delta2,0.0040491233
+5,74,mfcc_delta2_c9_std,MFCC-delta2,0.0060450328
+5,75,mfcc_delta2_c10_std,MFCC-delta2,0.010779526
+5,76,mfcc_delta2_c11_std,MFCC-delta2,0.005489541
+5,77,mfcc_delta2_c12_std,MFCC-delta2,0.007095112
+5,78,spectral_centroid_mean,Spectral centroid,0.005743282
+5,79,spectral_centroid_std,Spectral centroid,0.004644181
+5,80,spectral_bandwidth_mean,Spectral bandwidth,0.0
+5,81,spectral_bandwidth_std,Spectral bandwidth,0.010638193
+5,82,spectral_flatness_mean,Spectral flatness,0.0
+5,83,spectral_flatness_std,Spectral flatness,0.0073366356
+5,84,spectral_contrast_band0_mean,Spectral contrast,0.009766637
+5,85,spectral_contrast_band1_mean,Spectral contrast,0.015542978
+5,86,spectral_contrast_band2_mean,Spectral contrast,0.0068308813
+5,87,spectral_contrast_band3_mean,Spectral contrast,0.010615964
+5,88,spectral_contrast_band4_mean,Spectral contrast,0.0069906064
+5,89,spectral_contrast_band5_mean,Spectral contrast,0.008724787
+5,90,spectral_contrast_band6_mean,Spectral contrast,0.010291077
+5,91,spectral_contrast_band0_std,Spectral contrast,0.0053385873
+5,92,spectral_contrast_band1_std,Spectral contrast,0.006466265
+5,93,spectral_contrast_band2_std,Spectral contrast,0.008278784
+5,94,spectral_contrast_band3_std,Spectral contrast,0.0073495377
+5,95,spectral_contrast_band4_std,Spectral contrast,0.009726214
+5,96,spectral_contrast_band5_std,Spectral contrast,0.009971991
+5,97,spectral_contrast_band6_std,Spectral contrast,0.006700232
+5,98,spectral_rolloff_mean,Spectral rolloff,0.0
+5,99,spectral_rolloff_std,Spectral rolloff,0.009435661
+5,100,tonnetz_dim0_mean,Tonnetz,0.0073445453
+5,101,tonnetz_dim1_mean,Tonnetz,0.0071548126
+5,102,tonnetz_dim2_mean,Tonnetz,0.009882281
+5,103,tonnetz_dim3_mean,Tonnetz,0.0054233638
+5,104,tonnetz_dim4_mean,Tonnetz,0.00631426
+5,105,tonnetz_dim5_mean,Tonnetz,0.007720832
+5,106,tonnetz_dim0_std,Tonnetz,0.0067826356
+5,107,tonnetz_dim1_std,Tonnetz,0.0
+5,108,tonnetz_dim2_std,Tonnetz,0.014169772
+5,109,tonnetz_dim3_std,Tonnetz,0.0
+5,110,tonnetz_dim4_std,Tonnetz,0.0095194485
+5,111,tonnetz_dim5_std,Tonnetz,0.0059947064
+5,112,zcr_mean,ZCR,0.0065029953
+5,113,zcr_std,ZCR,0.00895888
+5,114,tempogram_ratio_bin0_mean,Tempogram ratio,0.0
+5,115,tempogram_ratio_bin1_mean,Tempogram ratio,0.0
+5,116,tempogram_ratio_bin2_mean,Tempogram ratio,0.0
+5,117,tempogram_ratio_bin3_mean,Tempogram ratio,0.0
+5,118,tempogram_ratio_bin4_mean,Tempogram ratio,0.008267178
+5,119,tempogram_ratio_bin5_mean,Tempogram ratio,0.0
+5,120,tempogram_ratio_bin6_mean,Tempogram ratio,0.008291296
+5,121,tempogram_ratio_bin7_mean,Tempogram ratio,0.006514978
+5,122,tempogram_ratio_bin8_mean,Tempogram ratio,0.014264722
+5,123,tempogram_ratio_bin9_mean,Tempogram ratio,0.0
+5,124,tempogram_ratio_bin10_mean,Tempogram ratio,0.014341404
+5,125,tempogram_ratio_bin11_mean,Tempogram ratio,0.0071358746
+5,126,tempogram_ratio_bin12_mean,Tempogram ratio,0.00878031
+5,127,tempogram_ratio_bin0_std,Tempogram ratio,0.0
+5,128,tempogram_ratio_bin1_std,Tempogram ratio,0.006849067
+5,129,tempogram_ratio_bin2_std,Tempogram ratio,0.0
+5,130,tempogram_ratio_bin3_std,Tempogram ratio,0.0076278835
+5,131,tempogram_ratio_bin4_std,Tempogram ratio,0.005917369
+5,132,tempogram_ratio_bin5_std,Tempogram ratio,0.0055512376
+5,133,tempogram_ratio_bin6_std,Tempogram ratio,0.0042787404
+5,134,tempogram_ratio_bin7_std,Tempogram ratio,0.0056489827
+5,135,tempogram_ratio_bin8_std,Tempogram ratio,0.006382538
+5,136,tempogram_ratio_bin9_std,Tempogram ratio,0.008910499
+5,137,tempogram_ratio_bin10_std,Tempogram ratio,0.008451167
+5,138,tempogram_ratio_bin11_std,Tempogram ratio,0.00892384
+5,139,tempogram_ratio_bin12_std,Tempogram ratio,0.00680707

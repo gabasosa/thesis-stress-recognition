@@ -1,0 +1,6 @@
+Evaluation Protocol,Result Source,Feature Type,Model,Weighted F1-score,Accuracy,Balanced Accuracy
+Subject-Independent GroupKFold,Local,Handcrafted,kNN (k=5),0.5942 ± 0.0333,0.6421 ± 0.0317,0.4878 ± 0.0066
+Subject-Independent GroupKFold,Local,Handcrafted,SVM (linear),0.5593 ± 0.0879,0.5447 ± 0.0989,0.4948 ± 0.1125
+Subject-Independent GroupKFold,Local,Handcrafted,XGBoost (Optuna-tuned),0.6550 ± 0.0527,0.6683 ± 0.0532,0.5661 ± 0.0727
+Subject-Independent GroupKFold,Local,Wav2Vec 2.0,kNN (k=5),0.6093 ± 0.0355,0.6299 ± 0.0450,0.5166 ± 0.0484
+Subject-Independent GroupKFold,Local,Wav2Vec 2.0,SVM (linear),0.5833 ± 0.0345,0.5758 ± 0.0500,0.5224 ± 0.0240
