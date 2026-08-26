@@ -1,0 +1,4 @@
+feature_representation,model,f1_mean,f1_std,accuracy_mean,accuracy_std
+Handcrafted,kNN,0.67,0.06,0.6,0.05
+Handcrafted,SVM,0.61,0.06,0.54,0.03
+W2V 2.0,Classifier,0.7,0.02,0.66,0.03

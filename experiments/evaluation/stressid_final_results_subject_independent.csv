@@ -1,6 +1,10 @@
-Evaluation Protocol,Result Source,Feature Type,Model,Weighted F1-score,Accuracy,Balanced Accuracy
-Subject-Independent GroupKFold,Local,Handcrafted,kNN (k=5),0.5942 ± 0.0333,0.6421 ± 0.0317,0.4878 ± 0.0066
-Subject-Independent GroupKFold,Local,Handcrafted,SVM (linear),0.5593 ± 0.0879,0.5447 ± 0.0989,0.4948 ± 0.1125
-Subject-Independent GroupKFold,Local,Handcrafted,XGBoost (Optuna-tuned),0.6550 ± 0.0527,0.6683 ± 0.0532,0.5661 ± 0.0727
-Subject-Independent GroupKFold,Local,Wav2Vec 2.0,kNN (k=5),0.6093 ± 0.0355,0.6299 ± 0.0450,0.5166 ± 0.0484
-Subject-Independent GroupKFold,Local,Wav2Vec 2.0,SVM (linear),0.5833 ± 0.0345,0.5758 ± 0.0500,0.5224 ± 0.0240
+evaluation_protocol,estimate_type,result_source,feature_representation,model,weighted_f1,weighted_f1_sd,balanced_accuracy,balanced_accuracy_sd
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,RF,0.5784199131153305,0.0312579407276404,0.4861318893412715,0.06138189025872842
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,kNN (k=3),0.44602089372065706,0.052123321548738714,0.47924550066426497,0.03063028121273337
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,SVM,0.5975570097928241,0.03550887431039606,0.512218061623096,0.062476065141068314
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,MLP,0.574778447350176,0.08773507722739195,0.5240682982158955,0.10776740445531324
+subject-independent,mean across splits/folds,Thesis experiment — post-selection,Handcrafted,XGBoost (Optuna-tuned),0.6605550311166088,0.07610515169225059,0.5745415278424432,0.09915798461878791
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,RF,0.6183859352600387,0.03955902045177723,0.5273789766467112,0.03767332999144155
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,kNN (k=3),0.4716129188818689,0.08172509142452997,0.5188109271862131,0.054722853246093786
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,SVM,0.6576029739406023,0.03651838929763596,0.5693882598459258,0.037293339942975685
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,MLP,0.593615880184881,0.022888120278309936,0.5311192699579428,0.03163956343102451

@@ -1,14 +1,21 @@
-Evaluation Protocol,Result Source,Feature Type,Model,Weighted F1-score,Accuracy,Balanced Accuracy
-Stratified K-Fold,StressID paper,Handcrafted,kNN (k=5),0.6700 ± 0.0600,0.6000 ± 0.0500,—
-Stratified K-Fold,StressID paper,Handcrafted,SVM (linear),0.6100 ± 0.0600,0.5400 ± 0.0300,—
-Stratified K-Fold,StressID paper,Wav2Vec 2.0,Wav2Vec 2.0 classifier,0.7000 ± 0.0200,0.6600 ± 0.0300,—
-Stratified K-Fold,Local,Handcrafted,kNN (k=5),0.6802 ± 0.0503,0.7090 ± 0.0492,0.5831 ± 0.0531
-Stratified K-Fold,Local,Handcrafted,SVM (linear),0.6201 ± 0.0210,0.6058 ± 0.0234,0.5800 ± 0.0296
-Stratified K-Fold,Local,Handcrafted,XGBoost (Optuna-tuned),0.6788 ± 0.0382,0.6851 ± 0.0376,0.6010 ± 0.0452
-Stratified K-Fold,Local,Wav2Vec 2.0,kNN (k=5),0.7338 ± 0.0604,0.7486 ± 0.0491,0.6566 ± 0.0789
-Stratified K-Fold,Local,Wav2Vec 2.0,SVM (linear),0.6841 ± 0.0256,0.6878 ± 0.0209,0.6163 ± 0.0434
-Subject-Independent GroupKFold,Local,Handcrafted,kNN (k=5),0.5942 ± 0.0333,0.6421 ± 0.0317,0.4878 ± 0.0066
-Subject-Independent GroupKFold,Local,Handcrafted,SVM (linear),0.5593 ± 0.0879,0.5447 ± 0.0989,0.4948 ± 0.1125
-Subject-Independent GroupKFold,Local,Handcrafted,XGBoost (Optuna-tuned),0.6550 ± 0.0527,0.6683 ± 0.0532,0.5661 ± 0.0727
-Subject-Independent GroupKFold,Local,Wav2Vec 2.0,kNN (k=5),0.6093 ± 0.0355,0.6299 ± 0.0450,0.5166 ± 0.0484
-Subject-Independent GroupKFold,Local,Wav2Vec 2.0,SVM (linear),0.5833 ± 0.0345,0.5758 ± 0.0500,0.5224 ± 0.0240
+evaluation_protocol,estimate_type,result_source,feature_representation,model,weighted_f1,weighted_f1_sd,balanced_accuracy,balanced_accuracy_sd
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,RF,0.6788053686510847,0.033452556853064905,0.6152450178005607,0.05100967456092714
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,kNN (k=3),0.5417527785974231,0.06061894774114854,0.5940951373692595,0.05585638712792831
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,SVM,0.6683342754381152,0.04479666811844142,0.598081702161444,0.05765485748033509
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,MLP,0.6633662853589473,0.04728319384030678,0.6116037463962276,0.06912556006717793
+recording-level,mean across splits/folds,Thesis experiment — post-selection,Handcrafted,XGBoost (Optuna-tuned),0.6850525946992707,0.06448706551087022,0.6112934134085714,0.06438371190651135
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,RF,0.7252953451572596,0.06275880909472521,0.6685907972411018,0.07570697681339533
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,kNN (k=3),0.6252006751503361,0.059948258903100675,0.6583475845717818,0.0542410207887143
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,SVM,0.7361281716494773,0.040722727207899545,0.6724933170753884,0.048039830704057346
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,MLP,0.6744716509480957,0.05137006012570109,0.619962759310534,0.054122543096485655
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,RF,0.5784199131153305,0.0312579407276404,0.4861318893412715,0.06138189025872842
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,kNN (k=3),0.44602089372065706,0.052123321548738714,0.47924550066426497,0.03063028121273337
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,SVM,0.5975570097928241,0.03550887431039606,0.512218061623096,0.062476065141068314
+subject-independent,mean across splits/folds,Thesis experiment,Handcrafted,MLP,0.574778447350176,0.08773507722739195,0.5240682982158955,0.10776740445531324
+subject-independent,mean across splits/folds,Thesis experiment — post-selection,Handcrafted,XGBoost (Optuna-tuned),0.6605550311166088,0.07610515169225059,0.5745415278424432,0.09915798461878791
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,RF,0.6183859352600387,0.03955902045177723,0.5273789766467112,0.03767332999144155
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,kNN (k=3),0.4716129188818689,0.08172509142452997,0.5188109271862131,0.054722853246093786
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,SVM,0.6576029739406023,0.03651838929763596,0.5693882598459258,0.037293339942975685
+subject-independent,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,MLP,0.593615880184881,0.022888120278309936,0.5311192699579428,0.03163956343102451
+subject-independent,outer-fold mean,Thesis experiment — nested selection-aware,Handcrafted,XGBoost (nested Optuna),0.5872618916054546,0.11287643002911317,0.5100618036087143,0.12808616202652534
+subject-independent,pooled out-of-fold,Thesis experiment — nested selection-aware,Handcrafted,XGBoost (nested Optuna),0.5904915844443057,,0.5044776119402985,

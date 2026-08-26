@@ -1,0 +1,10 @@
+evaluation_protocol,estimate_type,result_source,feature_representation,model,weighted_f1,weighted_f1_sd,balanced_accuracy,balanced_accuracy_sd
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,RF,0.6788053686510847,0.033452556853064905,0.6152450178005607,0.05100967456092714
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,kNN (k=3),0.5417527785974231,0.06061894774114854,0.5940951373692595,0.05585638712792831
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,SVM,0.6683342754381152,0.04479666811844142,0.598081702161444,0.05765485748033509
+recording-level,mean across splits/folds,StressID procedural reproduction,Handcrafted,MLP,0.6633662853589473,0.04728319384030678,0.6116037463962276,0.06912556006717793
+recording-level,mean across splits/folds,Thesis experiment — post-selection,Handcrafted,XGBoost (Optuna-tuned),0.6850525946992707,0.06448706551087022,0.6112934134085714,0.06438371190651135
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,RF,0.7252953451572596,0.06275880909472521,0.6685907972411018,0.07570697681339533
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,kNN (k=3),0.6252006751503361,0.059948258903100675,0.6583475845717818,0.0542410207887143
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,SVM,0.7361281716494773,0.040722727207899545,0.6724933170753884,0.048039830704057346
+recording-level,mean across splits/folds,Thesis experiment,Wav2Vec mean/std,MLP,0.6744716509480957,0.05137006012570109,0.619962759310534,0.054122543096485655

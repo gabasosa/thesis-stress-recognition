@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1800" height="980" viewBox="0 0 1800 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#000000" flood-opacity="0.34"/>
+    </filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.24"/>
+    </filter>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#94A3B8"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M2 2 L10 6 L2 10 Z" fill="#38BDF8"/>
+    </marker>
+    <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="40" y1="50" x2="1760" y2="930" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1120"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="stepActive" x1="600" y1="600" x2="1210" y2="696" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#082F49"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1460 260) rotate(136) scale(760 420)">
+      <stop stop-color="#0EA5E9" stop-opacity="0.18"/>
+      <stop offset="0.64" stop-color="#0EA5E9" stop-opacity="0.035"/>
+      <stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+    <style>
+      .font { font-family: Inter, "Segoe UI", Arial, sans-serif; }
+      .section { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 22px; font-weight: 780; letter-spacing: 0.11em; fill: #94A3B8; }
+      .cardTitle { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 25px; font-weight: 780; fill: #F8FAFC; }
+      .stepTitle { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 24px; font-weight: 760; fill: #F8FAFC; }
+      .stepNumber { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 23px; font-weight: 800; fill: #BAE6FD; }
+      .body { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 18px; font-weight: 450; fill: #CBD5E1; }
+      .bodyStrong { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 18px; font-weight: 700; fill: #E2E8F0; }
+      .itemTitle { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; font-size: 18px; font-weight: 700; fill: #F1F5F9; }
+      .itemText { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 17px; font-weight: 450; fill: #CBD5E1; }
+      .mono { font-family: "JetBrains Mono", "Fira Code", Consolas, monospace; font-size: 18px; font-weight: 680; fill: #E5E7EB; }
+      .small { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 16px; font-weight: 450; fill: #CBD5E1; }
+      .policyTitle { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 23px; font-weight: 770; fill: #F8FAFC; }
+      .policyText { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 19px; font-weight: 450; fill: #CBD5E1; }
+      .chip { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 16px; font-weight: 720; fill: #DFF6FF; }
+      .chipSmall { font-family: Inter, "Segoe UI", Arial, sans-serif; font-size: 14.5px; font-weight: 720; fill: #DFF6FF; }
+    </style>
+  </defs>
+
+  <rect width="1800" height="980" fill="url(#bg)"/>
+  <rect width="1800" height="980" fill="url(#glow)"/>
+  <rect x="40" y="55" width="1720" height="870" rx="32" fill="url(#panel)" stroke="#334155" stroke-width="2" filter="url(#cardShadow)"/>
+  <path d="M115 735 H1685" stroke="#334155" stroke-width="2"/>
+
+  <text class="section" x="165" y="132">AUDIO INPUT</text>
+  <text class="section" x="720" y="132">EXTRACTION PIPELINE</text>
+  <text class="section" x="1335" y="132">OUTPUT VECTOR</text>
+
+  <!-- Audio input -->
+  <rect x="100" y="165" width="430" height="535" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2" />
+  <text class="cardTitle" x="155" y="215">Input recording reference</text>
+
+  <rect x="130" y="260" width="370" height="120" rx="18" fill="#0B1220" stroke="#334155" stroke-width="2" />
+  <circle cx="174" cy="320" r="27" fill="#0F172A" stroke="#38BDF8" stroke-width="2" opacity="0.95"/>
+  <rect x="155" y="301" width="42" height="38" rx="5" fill="none" stroke="#38BDF8" stroke-width="3"/>
+  <path d="M155 314 H197" stroke="#38BDF8" stroke-width="2" opacity="0.8"/>
+  <path d="M155 327 H197" stroke="#38BDF8" stroke-width="2" opacity="0.8"/>
+  <path d="M169 301 V339" stroke="#38BDF8" stroke-width="2" opacity="0.8"/>
+  <path d="M183 301 V339" stroke="#38BDF8" stroke-width="2" opacity="0.8"/>
+  <text class="itemTitle" x="216" y="302">df_sid.filepath</text>
+  <text class="itemText" x="216" y="330">
+    <tspan x="216" dy="0">Path stored in the</tspan>
+    <tspan x="216" dy="23">working dataframe row</tspan>
+  </text>
+
+  <path d="M315 380 V415" stroke="#64748B" stroke-width="2.5" fill="none" marker-end="url(#arrow)"/>
+
+  <rect x="130" y="425" width="370" height="120" rx="18" fill="#0B1220" stroke="#334155" stroke-width="2" />
+  <circle cx="174" cy="485" r="27" fill="#0F172A" stroke="#3B82F6" stroke-width="2" opacity="0.95"/>
+  <path d="M161 467 H181 L194 480 V503 H161 Z" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M181 467 V480 H194" fill="none" stroke="#3B82F6" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M169 489 H186 M169 496 H183" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+  <text class="itemTitle" x="216" y="467">Resolved .wav file</text>
+  <text class="itemText" x="216" y="495">
+    <tspan x="216" dy="0">Single retained speech</tspan>
+    <tspan x="216" dy="23">recording loaded by path</tspan>
+  </text>
+
+  <rect x="130" y="600" width="370" height="58" rx="16" fill="#111827" stroke="#334155" stroke-width="1.6"/>
+  <text class="small" x="315" y="625" text-anchor="middle">Processing unit: one audio recording</text>
+  <text class="mono" x="315" y="650" text-anchor="middle">speech, sr after loading</text>
+
+  <!-- Extraction pipeline -->
+  <rect x="605" y="165" width="620" height="88" rx="20" fill="#111827" stroke="#334155" stroke-width="2" />
+  <circle cx="647" cy="209" r="28" fill="#0F172A" stroke="#3B82F6" stroke-width="3" />
+  <text class="stepNumber" x="647" y="217" text-anchor="middle">1</text>
+  <text class="stepTitle" x="693" y="197">Load waveform</text>
+  <text class="body" x="693" y="223"><tspan x="693" dy="0">Read the .wav file as waveform y</tspan><tspan x="693" dy="24">and preserve its sampling rate sr.</tspan></text>
+
+  <rect x="605" y="275" width="620" height="88" rx="20" fill="#111827" stroke="#334155" stroke-width="2" />
+  <circle cx="647" cy="319" r="28" fill="#0F172A" stroke="#3B82F6" stroke-width="3" />
+  <text class="stepNumber" x="647" y="327" text-anchor="middle">2</text>
+  <text class="stepTitle" x="693" y="307">Apply StressID VAD</text>
+  <text class="body" x="693" y="333"><tspan x="693" dy="0">Retain speech-active regions</tspan><tspan x="693" dy="24">before acoustic analysis.</tspan></text>
+
+  <rect x="605" y="385" width="620" height="88" rx="20" fill="#111827" stroke="#334155" stroke-width="2" />
+  <circle cx="647" cy="429" r="28" fill="#0F172A" stroke="#3B82F6" stroke-width="3" />
+  <text class="stepNumber" x="647" y="437" text-anchor="middle">3</text>
+  <text class="stepTitle" x="693" y="417">Extract descriptor families</text>
+  <text class="body" x="693" y="443"><tspan x="693" dy="0">Compute cepstral, spectral, tonal,</tspan><tspan x="693" dy="24">zero-crossing and rhythmic descriptors.</tspan></text>
+
+  <rect x="605" y="495" width="620" height="88" rx="20" fill="#111827" stroke="#334155" stroke-width="2" />
+  <circle cx="647" cy="539" r="28" fill="#0F172A" stroke="#3B82F6" stroke-width="3" />
+  <text class="stepNumber" x="647" y="547" text-anchor="middle">4</text>
+  <text class="stepTitle" x="693" y="527">Aggregate temporal statistics</text>
+  <text class="body" x="693" y="553"><tspan x="693" dy="0">Store means and standard deviations</tspan><tspan x="693" dy="24">over the analyzed waveform.</tspan></text>
+
+  <rect x="605" y="605" width="620" height="88" rx="20" fill="url(#stepActive)" stroke="#38BDF8" stroke-width="2" filter="url(#softShadow)"/>
+  <circle cx="647" cy="649" r="28" fill="#0F172A" stroke="#38BDF8" stroke-width="3" />
+  <text class="stepNumber" x="647" y="657" text-anchor="middle">5</text>
+  <text class="stepTitle" x="693" y="637">Validate feature dimensionality</text>
+  <text class="body" x="693" y="663"><tspan x="693" dy="0">Keep an explicit assertion that the</tspan><tspan x="693" dy="24">constructed vector has 140 values.</tspan></text>
+
+  <!-- Output vector -->
+  <rect x="1300" y="165" width="400" height="535" rx="28" fill="#0F172A" stroke="#334155" stroke-width="2" />
+  <rect x="1345" y="205" width="310" height="90" rx="24" fill="#102A3A" stroke="#22D3EE" stroke-width="2" />
+  <text class="cardTitle" x="1500" y="245" text-anchor="middle">Handcrafted vector</text>
+  <text class="mono" x="1500" y="276" text-anchor="middle">140-D representation</text>
+
+  <text class="bodyStrong" x="1360" y="340">Vector construction</text>
+  <rect x="1360" y="370" width="130" height="38" rx="19" fill="#1E3A8A" stroke="#2563EB" stroke-width="1.5"/><text class="chip" x="1425" y="395" text-anchor="middle">means</text>
+  <rect x="1510" y="370" width="160" height="38" rx="19" fill="#1E3A8A" stroke="#2563EB" stroke-width="1.5"/><text class="chipSmall" x="1590" y="395" text-anchor="middle">standard deviations</text>
+  <rect x="1360" y="425" width="145" height="38" rx="19" fill="#1E3A8A" stroke="#2563EB" stroke-width="1.5"/><text class="chip" x="1432.5" y="450" text-anchor="middle">concatenation</text>
+  <rect x="1525" y="425" width="145" height="38" rx="19" fill="#1E3A8A" stroke="#2563EB" stroke-width="1.5"/><text class="chip" x="1597.5" y="450" text-anchor="middle">fixed length</text>
+
+  <path d="M1360 500 H1670" stroke="#334155" stroke-width="2"/>
+  <text class="bodyStrong" x="1360" y="545">Dimensionality guard</text>
+  <text x="1360" y="585" font-family="JetBrains Mono, Fira Code, Consolas, monospace" font-size="13.5" font-weight="680" fill="#E5E7EB">assert handcrafted_features.shape[0] == 140</text>
+  <text class="body" x="1360" y="630">Detects feature-construction</text>
+  <text class="body" x="1360" y="657">or library-behavior changes.</text>
+
+  <!-- Connections -->
+  <path d="M500 485 C560 485, 545 209, 595 209" stroke="#94A3B8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M915 253 V268" stroke="#94A3B8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M915 363 V378" stroke="#94A3B8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M915 473 V488" stroke="#94A3B8" stroke-width="3" fill="none" marker-end="url(#arrow)"/>
+  <path d="M915 583 V598" stroke="#38BDF8" stroke-width="3" fill="none" marker-end="url(#arrowBlue)"/>
+  <path d="M1225 649 C1280 649, 1260 250, 1335 250" stroke="#38BDF8" stroke-width="4" fill="none" marker-end="url(#arrowBlue)"/>
+
+  <!-- Feature composition strip -->
+  <rect x="100" y="755" width="1600" height="155" rx="26" fill="#0F172A" stroke="#334155" stroke-width="2" />
+  <text class="policyTitle" x="145" y="805">Feature composition</text>
+  <text class="policyText" x="145" y="840">Concatenates temporal means</text>
+  <text class="policyText" x="145" y="868">and standard deviations.</text>
+  <path d="M560 785 V880" stroke="#334155" stroke-width="2"/>
+  <rect x="610" y="790" width="180" height="38" rx="19" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/><text class="chip" x="700" y="815" text-anchor="middle">MFCC + Δ + ΔΔ</text>
+  <rect x="815" y="790" width="205" height="38" rx="19" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/><text class="chip" x="917.5" y="815" text-anchor="middle">spectral descriptors</text>
+  <rect x="1045" y="790" width="120" height="38" rx="19" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/><text class="chip" x="1105" y="815" text-anchor="middle">tonnetz</text>
+  <rect x="1190" y="790" width="205" height="38" rx="19" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/><text class="chip" x="1292.5" y="815" text-anchor="middle">zero-crossing rate</text>
+  <rect x="1420" y="790" width="185" height="38" rx="19" fill="#1E293B" stroke="#38BDF8" stroke-width="1.5"/><text class="chip" x="1512.5" y="815" text-anchor="middle">tempogram ratio</text>
+  <text class="small" x="610" y="860">Cepstral, spectral, tonal, temporal, and rhythmic information is summarized into a fixed-length vector.</text>
+</svg>

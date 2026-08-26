@@ -1,2 +1,2 @@
-n_estimators,max_depth,learning_rate,subsample,colsample_bytree,min_child_weight,gamma,reg_alpha,reg_lambda,best_mean_weighted_f1
-366,7,0.04459496497900813,0.8171630395360667,0.5786296994717635,3,1.2602021305010687,0.005997697883720813,2.9482112492844087e-08,0.6549638642775377
+n_estimators,max_depth,learning_rate,subsample,colsample_bytree,min_child_weight,gamma,reg_alpha,reg_lambda,best_mean_weighted_f1,source_run,trial_number
+251,5,0.1321340531696531,0.7418370253152121,0.553460103606684,5,1.0923336004595083,0.0007877499700375,1.7420899906144149e-07,0.6605550311166088,5,28

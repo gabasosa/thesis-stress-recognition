@@ -1,0 +1,14 @@
+{
+  "protocol": "stressid_wav2vec_embedding_extraction",
+  "n_recordings": 378,
+  "dataset_fingerprint": "68b430e1337f715316b5c970f8c03537c3db305a94d3c77fe59564df36c29337",
+  "embedding_method": "temporal_mean_plus_std",
+  "vad_method": "stressid_vad",
+  "checkpoint_name": "wav2vec_large",
+  "checkpoint_fingerprint": "ad40bf1e2cab80631028bc289e336f7ba7a356af58884db3464969cae1dc1bba",
+  "checkpoint_path": "/home/gaba/Documents/Facultad/Tesis/models/wav2vec/wav2vec_large.pt",
+  "extraction_timestamp": "2026-08-25 23:00:21",
+  "successful_extractions": 378,
+  "embedding_dimension": 1024,
+  "positive_class_ratio": 0.708994708994709
+}

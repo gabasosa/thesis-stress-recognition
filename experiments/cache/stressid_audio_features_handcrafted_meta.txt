@@ -1,5 +1,6 @@
-Last extraction timestamp: 2026-04-17 14:35:46
+Last extraction timestamp: 2026-08-25 16:04:03
 Samples: 378
 Feature dimension: 140
 Positive ratio: 0.709
+Failed files: 0
 Cache file: /home/gaba/Documents/Facultad/Tesis/GitHub/thesis-stress-recognition/experiments/cache/stressid_audio_features_handcrafted.parquet

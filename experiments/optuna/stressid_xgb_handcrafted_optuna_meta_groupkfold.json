@@ -1,0 +1,74 @@
+{
+  "protocol": "stressid_xgb_handcrafted_optuna",
+  "cv_scheme": "groupkfold",
+  "n_splits": 5,
+  "model_random_seed": 42,
+  "optuna_base_seed": 42,
+  "optimization_strategy": "independent_tpe_batches",
+  "objective_metric": "mean_weighted_f1",
+  "class_imbalance_method": "fold_specific_scale_pos_weight",
+  "preprocessing": [
+    "no_smote",
+    "no_imputation",
+    "no_standardization"
+  ],
+  "n_recordings": 378,
+  "feature_dimension": 140,
+  "n_subjects": 54,
+  "data_fingerprint": "a0196ce2c43fefd572bc5d902618b1de9dc9c28e1ca064ad1cfdd54650d78f2e",
+  "search_space": {
+    "n_estimators": {
+      "type": "int",
+      "low": 100,
+      "high": 600
+    },
+    "max_depth": {
+      "type": "int",
+      "low": 2,
+      "high": 10
+    },
+    "learning_rate": {
+      "type": "float",
+      "low": 0.001,
+      "high": 0.2,
+      "log": true
+    },
+    "subsample": {
+      "type": "float",
+      "low": 0.5,
+      "high": 1.0
+    },
+    "colsample_bytree": {
+      "type": "float",
+      "low": 0.5,
+      "high": 1.0
+    },
+    "min_child_weight": {
+      "type": "int",
+      "low": 1,
+      "high": 10
+    },
+    "gamma": {
+      "type": "float",
+      "low": 0.0,
+      "high": 5.0
+    },
+    "reg_alpha": {
+      "type": "float",
+      "low": 1e-08,
+      "high": 10.0,
+      "log": true
+    },
+    "reg_lambda": {
+      "type": "float",
+      "low": 1e-08,
+      "high": 10.0,
+      "log": true
+    }
+  },
+  "xgboost_version": "3.2.0",
+  "execution_timestamp": "2026-08-25 18:14:40",
+  "study_runs": 9,
+  "trials_per_run": 50,
+  "total_trials": 450
+}

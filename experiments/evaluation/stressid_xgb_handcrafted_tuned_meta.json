@@ -1,0 +1,42 @@
+{
+  "protocol": "stressid_tuned_xgb_handcrafted_post_selection",
+  "split_generator": "shared_iter_evaluation_splits",
+  "n_recordings": 378,
+  "feature_dimension": 140,
+  "n_subjects": 54,
+  "data_fingerprint": "a0196ce2c43fefd572bc5d902618b1de9dc9c28e1ca064ad1cfdd54650d78f2e",
+  "best_xgb_params": {
+    "n_estimators": 251,
+    "max_depth": 5,
+    "learning_rate": 0.1321340531696531,
+    "subsample": 0.7418370253152121,
+    "colsample_bytree": 0.553460103606684,
+    "min_child_weight": 5,
+    "gamma": 1.0923336004595083,
+    "reg_alpha": 0.0007877499700375,
+    "reg_lambda": 1.7420899906144149e-07
+  },
+  "class_imbalance_method": "fold_specific_scale_pos_weight",
+  "preprocessing": [
+    "no_smote",
+    "no_imputation",
+    "no_standardization"
+  ],
+  "recording_level": {
+    "n_repetitions": 10,
+    "test_size": 0.2
+  },
+  "subject_independent": {
+    "n_splits": 5
+  },
+  "random_seed": 42,
+  "metrics": [
+    "weighted_f1",
+    "balanced_accuracy"
+  ],
+  "xgboost_version": "3.2.0",
+  "execution_timestamp": "2026-08-25 21:44:34",
+  "result_rows": 15,
+  "prediction_rows": 1138,
+  "confusion_rows": 15
+}

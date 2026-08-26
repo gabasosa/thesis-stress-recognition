@@ -15,3 +15,7 @@ external/stressID-fork/
 
 # Legacy notebook-local outputs
 notebooks/StressID/outputs/
+
+# Local copies of academic papers
+literature/papers/
+*.pdf
