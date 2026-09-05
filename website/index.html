@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stress Recognition in Speech Signals</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap");
+:root{--ink:#edf4f3;--muted:#91a6aa;--line:#24383e;--paper:#071218;--cyan:#55d6d0;--lime:#c4ed68;--violet:#a98cff}
+*{box-sizing:border-box}body{margin:0;color:var(--ink);background:var(--paper);font-family:Manrope,system-ui,sans-serif}
+body:before{position:fixed;z-index:-1;inset:0;height:100%;background:radial-gradient(circle at 85% 5%,#173b49 0,transparent 28%),linear-gradient(120deg,#071218 0,#08191e 58%,#0b151b 100%);content:""}
+.shell{width:min(1120px,calc(100% - 48px));margin:auto}.hero{position:relative;padding:52px 0 40px;isolation:isolate}.hero:after{position:absolute;z-index:-1;top:22px;right:-2%;width:52%;height:190px;opacity:.52;background:repeating-linear-gradient(90deg,transparent 0 11px,#55d6d012 12px 13px),linear-gradient(90deg,transparent,#55d6d01c,transparent);clip-path:polygon(0 55%,5% 51%,8% 62%,12% 34%,16% 69%,20% 48%,24% 54%,28% 21%,32% 72%,36% 42%,40% 58%,44% 30%,48% 64%,52% 45%,56% 57%,60% 18%,64% 70%,68% 39%,72% 54%,76% 28%,80% 66%,84% 45%,88% 57%,92% 23%,96% 69%,100% 43%,100% 100%,0 100%);content:"";pointer-events:none}
+.eyebrow,.label,footer{font:500 11px/1.4 "DM Mono",monospace;letter-spacing:.08em;text-transform:uppercase}.eyebrow{display:flex;align-items:center;gap:9px;color:var(--cyan)}.pulse{width:7px;height:7px;border-radius:50%;background:var(--lime);box-shadow:0 0 0 5px #c4ed6820}
+h1{max-width:none;margin:16px 0 14px;font-size:clamp(34px,4.4vw,58px);line-height:1;letter-spacing:-.065em;white-space:nowrap}h1 em{color:var(--cyan);font-style:normal}.intro{max-width:none;margin:0;color:var(--muted);font-size:15px;line-height:1.55;white-space:nowrap}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{display:flex;min-height:245px;flex-direction:column;justify-content:space-between;padding:22px;border:1px solid var(--line);border-radius:14px;color:var(--ink);background:linear-gradient(145deg,#10242b,#0c1b21);box-shadow:0 18px 45px #00000028;text-decoration:none;transition:.2s;overflow:hidden;position:relative}.card:hover{border-color:#55d6d080;box-shadow:0 24px 55px #00000055;transform:translateY(-5px)}
+.drive{background:linear-gradient(145deg,#102b31,#0b1b21)}.github{background:linear-gradient(145deg,#171b31,#0c1821)}.overleaf{background:linear-gradient(145deg,#182b28,#0b1b20)}
+.top{display:flex;align-items:start;justify-content:flex-end;min-height:24px}.watermark{position:absolute;right:18px;bottom:34px;width:145px;height:145px;opacity:.12;transform:rotate(-8deg);pointer-events:none}.watermark svg{width:100%;height:100%}.drive .watermark{opacity:.16}.github .watermark{opacity:.14;color:var(--violet)}.overleaf .watermark{opacity:.14}.arrow{color:var(--muted);font-size:23px}.label{margin:0 0 10px;color:var(--lime)}h2{margin:0 0 10px;font-size:22px;letter-spacing:-.04em}.description{max-width:240px;margin:0;color:var(--muted);font-size:13px;line-height:1.65}
+footer{display:flex;justify-content:space-between;padding:18px 0 26px;border-top:1px solid var(--line);color:#60777d;letter-spacing:0;text-transform:none}
+@media(max-width:760px){.shell{width:min(100% - 32px,560px)}.hero{padding:55px 0 48px}.intro{white-space:normal}h1{font-size:clamp(42px,11vw,60px);white-space:normal}.grid{grid-template-columns:1fr}.card{min-height:280px}}
+</style>
+</head>
+<body>
+<main class="shell">
+<header class="hero"><div class="eyebrow"><span class="pulse"></span> Thesis workspace</div><h1>Stress recognition <em>in speech signals</em></h1><p class="intro">Gabriel Sosa's Electronic Engineering degree thesis · Tutor: Patricia Pelle</p></header>
+<section><div class="grid">
+<a class="card drive" href="https://drive.google.com/drive/folders/1_VZ6bMmohTtze0KhU6n5STirKVwO42TE?usp=drive_link"><div class="top"><span class="arrow">↗</span></div><div class="watermark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M16 7h9l15 26h-9L16 7Z" fill="#0F9D58"/><path d="m16 7-15 26h10L26 7H16Z" fill="#F4B400"/><path d="m11 33 5 8h24l-5-8H11Z" fill="#4285F4"/></svg></div><div><p class="label">Documents &amp; files</p><h2>Google Drive folder</h2><p class="description">Drafts, references, data, and supporting material.</p></div></a>
+<a class="card github" href="https://github.com/gabasosa/thesis-stress-recognition"><div class="top"><span class="arrow">↗</span></div><div class="watermark" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M24 4C12.95 4 4 12.95 4 24c0 8.84 5.73 16.34 13.68 18.99 1 .18 1.37-.43 1.37-.96v-3.36c-5.56 1.21-6.73-2.36-6.73-2.36-.91-2.31-2.22-2.92-2.22-2.92-1.82-1.24.14-1.21.14-1.21 2.01.14 3.07 2.06 3.07 2.06 1.79 3.06 4.7 2.18 5.85 1.66.18-1.29.7-2.18 1.27-2.68-4.44-.5-9.11-2.22-9.11-9.88 0-2.18.78-3.96 2.06-5.36-.21-.5-.89-2.53.2-5.28 0 0 1.68-.54 5.5 2.05a19.1 19.1 0 0 1 10.02 0c3.82-2.59 5.49-2.05 5.49-2.05 1.1 2.75.41 4.78.2 5.28 1.28 1.4 2.06 3.18 2.06 5.36 0 7.68-4.68 9.37-9.13 9.86.72.62 1.36 1.84 1.36 3.71v5.5c0 .53.36 1.15 1.38.95A20.02 20.02 0 0 0 44 24C44 12.95 35.05 4 24 4Z" fill="currentColor"/></svg></div><div><p class="label">Experimental environment</p><h2>GitHub repository</h2><p class="description">Source code, experiments, issues, and project history.</p></div></a>
+<a class="card overleaf" href="https://www.overleaf.com/project/6a9994129cb3b5d34b0fca4b"><div class="top"><span class="arrow">↗</span></div><div class="watermark" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M13.0748 3.19694C11.6883 2.6541 6.67193 2.45789 6.66539 5.45331C5.20038 6.38857 4.23242 7.91244 4.23242 9.5475C4.23242 11.5226 5.83478 13.125 7.80992 13.125C9.78507 13.125 11.3874 11.5226 11.3874 9.5475C11.3874 8.02362 10.4326 6.71558 9.08527 6.20544C8.82366 6.10734 8.2612 5.93075 7.81646 5.96999C7.17552 6.37549 6.3907 7.21263 6.02444 8.04978C6.57382 7.38922 7.43059 7.10145 8.1958 7.22571C9.31418 7.40884 10.1709 8.37679 10.1709 9.55404C10.1709 10.8555 9.11797 11.9085 7.81646 11.9085C7.09704 11.9085 6.4561 11.588 6.02444 11.0844C5.37696 10.3323 5.21346 9.52133 5.34426 8.72997C5.79554 5.95691 9.08527 4.38072 11.5313 3.77248C10.7334 4.19759 9.29456 4.89085 8.28736 5.64298C11.2239 6.78098 11.7014 4.30223 13.0748 3.19694Z" fill="currentColor"/></svg></div><div><p class="label">Thesis plan</p><h2>Overleaf project</h2><p class="description">The living thesis plan and collaborative LaTeX document.</p></div></a>
+</div></section>
+<footer><span>Universidad de Buenos Aires · Facultad de Ingeniería</span><span>2026</span></footer>
+</main>
+</body>
+</html>
